@@ -27,3 +27,8 @@ console.log(`Hi! My name is ${name} and I am ${myAge} years old`);
 console.log(both);
 document.getElementById("demo").innerHTML =
 `Hi! My name is ${name} and I am ${myAge} years old`;
+
+/// String Method- Length 
+let length = name.length; 
+document.getElementById("demo1").innerHTML =
+`My name has ${length} letters`;

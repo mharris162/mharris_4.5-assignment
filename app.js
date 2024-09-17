@@ -54,6 +54,23 @@ let bill = 9.4575
 console.log(bill.toFixed(2))
 
 
+/// switch statements 
+const favAnimal = "Bear";
+switch (favAnimal) {
+    case "Cat": {
+    console.log("I love cats")}
+    break 
+    case "Dog":{
+    console.log("I love dogs");}
+    break
+    case "Fish": {
+    console.log("I love fish");}
+    break
+    default:
+    console.log("Try another animal")
+}
+
+
 
 
 

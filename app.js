@@ -32,3 +32,10 @@ document.getElementById("demo").innerHTML =
 let length = name.length; 
 document.getElementById("demo1").innerHTML =
 `My name has ${length} letters`;
+
+
+/// String Method- Slice 
+let animals = "Cats, Dogs, Fish";
+let some = animals.slice (0,3);
+document.getElementById("demo2").innerHTML =
+`I have a pet ${some}`;
